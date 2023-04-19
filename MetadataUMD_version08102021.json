@@ -1,0 +1,310 @@
+{
+"investigation":{
+  "title" : "ISA investigation schema for Metakids-UMD Project 2019",
+  "ontologySourceReferences": {
+		"PATO": {
+		  "name": "PATO",
+		  "description": "Phenotypic Quality Ontology",
+		  "file": "https://bioportal.bioontology.org/ontologies/PATO",
+		  "version": "2021-08-06",
+		  "@type": "DefinedTermSet"
+		},
+		"NCIT": {
+		  "name": "NCIT",
+		  "description": "National Cancer Institute Thesaurus",
+		  "file": "https://bioportal.bioontology.org/ontologies/NCIT",
+		  "version": "21.08e",
+		  "@type": "DefinedTermSet"
+		},
+		"CHMO": {
+		  "name": "CHMO",
+		  "description": "Chemical Methods Ontology",
+		  "file": "https://bioportal.bioontology.org/ontologies/CHMO",
+		  "version": "releases/2014-11-20",
+		  "@type": "DefinedTermSet"
+		},
+		"GLYCOCOO": {
+		  "name": "GLYCOCOO",
+		  "description": "GlycoConjugate Ontology",
+		  "file": "https://bioportal.bioontology.org/ontologies/GLYCOCOO",
+		  "version": "1.1.3",
+		  "@type": "DefinedTermSet"
+		},
+		"NCBITAXON": {
+		  "name": "NCBITAXON",
+		  "description": "National Center for Biotechnology Information (NCBI) Organismal Classification",
+		  "file": "https://www.ebi.ac.uk/ols/ontologies/ncbitaxon",
+		  "version": "2021-06-10",
+		  "@type": "DefinedTermSet"
+		},
+		"ENVO": {
+		  "name": "ENVO",
+		  "description": "Environment Ontology",
+		  "file": "https://bioportal.bioontology.org/ontologies/ENVO",
+		  "version": "2021-05-14",
+		  "@type": "DefinedTermSet"
+		},
+		"OBIB": {
+		  "name": "OBIB",
+		  "description": "Ontology for Biobanking",
+		  "file": "https://bioportal.bioontology.org/ontologies/OBIB",
+		  "version": "2021-02-10",
+		  "@type": "DefinedTermSet"
+		},
+		"CL": {
+		  "name": "CL",
+		  "description": "Cell Ontology",
+		  "file": "https://bioportal.bioontology.org/ontologies/CL",
+		  "version": "2021-08-10",
+		  "@type": "DefinedTermSet"
+		},
+		"EDAM": {
+		  "name": "EDAM",
+		  "description": "EDAM - Bioscientific data analysis ontology",
+		  "file": "https://bioportal.bioontology.org/ontologies/EDAM",
+		  "version": "2021-02-26",
+		  "@type": "DefinedTermSet"
+		},
+		"GAZ": {
+		  "name": "GAZ",
+		  "description": "Gazetteer",
+		  "file": "https://bioportal.bioontology.org/ontologies/GAZ",
+		  "version": "$Revision: 1.512 $",
+		  "@type": "DefinedTermSet"
+		},
+		"@type": "CategoryCodeSet"
+	  },
+  "studies":{	  
+	  "identifier": "ToBeDefined",
+	  "title": "Metadata record for Experiment I: A resource of Lipidomics, Metabolomics and Glycoproteomics Data",
+	  "relatedPublications": [
+		{
+		  "doi": "ToBeDefined Publication 1",
+		  "@type": "ScholarlyArticle"
+		},
+		{
+		  "doi": "ToBeDefined Publication N",
+		  "@type": "ScholarlyArticle"
+		}
+	  ],
+	  "repositories": [
+		{
+		  "name": "ToBeDefined Storage Place 1",
+		  "value": "ToBeDefined",
+		  "@type": "DataCatalog"
+		},
+		{
+		  "name": "ToBeDefined Storage Place N",
+		  "value": "ToBeDefined",
+		  "@type": "DataCatalog"
+		}
+	  ],
+	  "studyCharacteristics": {
+		"organism": [
+		  {
+			"annotationValue": "Homo sapiens",
+			"termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+			"termSource": "NCBITAXON",
+			"@type": "PropertyValue"
+		  }
+		],
+		"materials": [
+		  {
+			"annotationValue": "blood plasma material",
+			"termAccession": "http://purl.obolibrary.org/obo/ENVO_02000027",
+			"termSource": "ENVO",
+			"@type": "PropertyValue"
+		  },
+		  {
+			"annotationValue": "EDTA plasma",
+			"termAccession": "http://purl.obolibrary.org/obo/OBIB_0000233",
+			"termSource": "OBIB",
+			"@type": "PropertyValue"
+		  },
+		  {
+			"annotationValue": "Erythrocyte pellet",
+			"termAccession": "http://purl.obolibrary.org/obo/CL_0000232",
+			"termSource": "CL",
+			"@type": "PropertyValue"
+		  },
+		  {
+			"annotationValue": "Dried Blood Spot",
+			"termAccession": "http://purl.obolibrary.org/obo/NCIT_C113746",
+			"termSource": "NCIT",
+			"@type": "PropertyValue"
+		  },
+		  {
+			"annotationValue": "Cerebrospinal Fluid",
+			"termAccession": "http://purl.obolibrary.org/obo/NCIT_C12692",
+			"termSource": "NCIT",
+			"@type": "PropertyValue"
+		  },
+		  {
+			"annotationValue": "Plasma",
+			"termAccession": "http://purl.obolibrary.org/obo/NCIT_C13356",
+			"termSource": "NCIT",
+			"@type": "PropertyValue"
+		  }
+		],
+		"geographicalLocation": [
+		  {
+			"annotationValue": "The Netherlands",
+			"termAccession": "http://purl.obolibrary.org/obo/GAZ_00002946",
+			"termSource": "GAZ",
+			"@type": "Place"
+		  },
+		  {
+			"annotationValue": "Belgium",
+			"termAccession": "http://purl.obolibrary.org/obo/GAZ_00002938",
+			"termSource": "GAZ",
+			"@type": "Place"
+		  }
+		],
+		"@type": "variableMeasured"
+	  },
+	  "factors": [
+		{
+			"name": "sex",
+			"type": {
+			  "annotationValue": "genotypic sex",
+		  		"termAccession": "http://purl.obolibrary.org/obo/PATO_0020000",
+		  		"termSource": "PATO",
+		  		"@type": "PropertyValue"
+			},
+			"@type": "variableMeasured"
+	  	},
+		{
+			"name": "age",
+			"type": {
+			  "annotationValue": "age",
+			  "termAccession": "http://purl.obolibrary.org/obo/PATO_0000011",
+			  "termSource": "PATO",
+			  "@type": "PropertyValue"
+			},
+			"@type": "variableMeasured"
+		},
+		{
+			"name": "Diagnosis",
+			"type": {
+			  "annotationValue": "Diagnosis",
+			  "termAccession": "http://purl.obolibrary.org/obo/NCIT_C15220",
+			  "termSource": "NCIT",
+			  "@type": "PropertyValue"
+			},
+			"@type": "variableMeasured"
+		},
+		{
+			"name": "Drug use",
+			"type": {
+			  "annotationValue": "Drug Use History",
+			  "termAccession": "http://purl.obolibrary.org/obo/NCIT_C81246",
+			  "termSource": "NCIT",
+			  "@type": "PropertyValue"
+			},
+			"@type": "variableMeasured"
+		}
+	  ],
+	  "assays": [
+		{ "title": "Lipidomics assay at Amsterdam UMC",
+		  "measurementType": {
+		    "@type": "PropertyValue",
+			"annotationValue": "Lipidomics",
+			"termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C153193",
+			"termSource": "NCIT",
+			"relatedPublications": [
+				{
+				  "doi": "doi.org/10.1194/jlr.M067470",
+				  "@type": "ScholarlyArticle"
+				},
+				{
+				  "doi": "doi.org/10.1038/s41436-020-01027-3",
+				  "@type": "ScholarlyArticle"
+				}
+			]
+		  },
+		  "technologyType": [
+			  {
+				"annotationValue": "High-performance Liquid Chromatography-Mass Spectrometry",
+				"termAccession": "http://purl.obolibrary.org/obo/CHMO_0000796",
+				"termSource": "CHMO",
+				"@type": "PropertyValue"
+			  }
+		  ],		  
+		  "@type": "variableMeasured"
+		},
+		{ "title": "Untargeted metabolomics assay at UMC Utrecht",
+		  "measurementType": {
+			"@type": "PropertyValue",
+			"annotationValue": "Metabolomics",
+			"termAccession": "http://edamontology.org/topic_3172",
+			"termSource": "EDAM",
+			"relatedPublications": [
+				{
+				  "doi": "doi:10.3390/ijms21030979",
+				  "@type": "ScholarlyArticle"
+				},
+				{
+				  "doi": "doi:10.3390/metabo9010012",
+				  "@type": "ScholarlyArticle"
+				}
+			]			
+		  },
+		  "technologyType": {
+			"annotationValue": "high-resolution electrospray ionisation mass spectrometry",
+			"termAccession": "http://purl.obolibrary.org/obo/CHMO_0000485",
+			"termSource": "CHMO",
+			"@type": "PropertyValue"
+		  },
+		  "@type": "variableMeasured"
+		},
+		{ "title": "Untargeted metabolomics assay at Radboud UMC",
+		  "measurementType": {
+			"@type": "PropertyValue",
+			"annotationValue": "Metabolomics",
+			"termAccession": "http://edamontology.org/topic_3172",
+			"termSource": "EDAM",
+			"relatedPublications": [
+				{
+				  "doi": "doi.org/10.1007/s10545-017-0131-6",
+				  "@type": "ScholarlyArticle"
+				},
+				{
+				  "doi": "doi:10.3390/metabo11090568",
+				  "@type": "ScholarlyArticle"
+				}
+			]			
+		  },
+		  "technologyType": {
+			"annotationValue": "quadrupole time-of-flight mass spectrometry",
+			"termAccession": "http://purl.obolibrary.org/obo/CHMO_0002719",
+			"termSource": "CHMO",
+			"@type": "PropertyValue"
+		  },
+		  "@type": "variableMeasured"
+		},
+		{ "title": "Glycoproteomics assay at Radboud UMC",
+		  "measurementType": {
+			"@type": "PropertyValue",			
+			"annotationValue": "Glycoproteomics",
+			"termAccession": "https://github.com/glycoinfo/GlycoCoO",
+			"termSource": "GLYCOCOO",
+			"relatedPublications": [
+				{
+				  "doi": "doi:10.3390/proteomes6020020",
+				  "@type": "ScholarlyArticle"
+				}
+			]			
+		  },
+		  "technologyType": {
+			"annotationValue": "ToBeDefined",
+			"termAccession": "ToBeDefined",
+			"termSource": "ToBeDefined",
+			"@type": "PropertyValue"
+		  },
+		  "@type": "variableMeasured"
+		}
+	  ],	 
+	"@type": "Dataset"
+    }	
+  }
+}
